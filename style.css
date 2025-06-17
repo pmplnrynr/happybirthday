@@ -33,7 +33,6 @@ body {
     text-align: center;
     letter-spacing: 1.5px;
     background: linear-gradient(to right, #00f0ff, #00cfff);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 2s infinite alternate;
     text-transform: uppercase;
