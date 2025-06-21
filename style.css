@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:opsz,wght@14..32,500&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
 *{
     margin: 0;
@@ -20,21 +20,19 @@ body {
     font-family: "Inter", serif;
 }
 .username {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Gabarito', sans-serif;
     font-size: 32px;
-    color: #00e1ff;
+    color: #ffffff;
     text-shadow:
-      0 0 8px #00e1ff,
-      0 0 12px #0099cc,
-      0 0 18px #0077aa,
-      2px 2px 6px #000;
+      0 0 8px #ffffff,
+      0 0 12px #4b17c4,
+      0 0 18px #470a6b,
+      2px 2px 6px #c51056;
     font-weight: bold;
     margin: 10px 0 15px 0;
     text-align: center;
     letter-spacing: 1.5px;
-    background: linear-gradient(to right, #00f0ff, #00cfff);
-    -webkit-text-fill-color: transparent;
-    animation: shine 2s infinite alternate;
+    background: linear-gradient(to right, #6f0edd, #3e0a7a);
     text-transform: uppercase;
   }
   
@@ -971,7 +969,7 @@ span{
 .container .cute1::after{
     position: absolute;
     content: 'Surprised yet, my special girl?';
-    font-family: 'Roboto', sans-serif;
+    font-family: 'CODE', sans-serif;
     text-align: center;
     padding: 10px;
     width: 80px;
@@ -1022,7 +1020,7 @@ span{
 .container .cute2::after{
     position: absolute;
     content: 'Wow!';
-    font-family: 'Roboto', sans-serif;
+    font-family: 'CODE', sans-serif;
     text-align: center;
     padding: 10px;
     width: 80px;
@@ -1092,7 +1090,7 @@ span{
 }
 .boxMail .boxMail-container:hover{
     transform: rotate(-5deg);
-    filter: drop-shadow(0 0 10px red);
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
 }
 .boxMail .boxMail-container:hover .card1{
     transform: translate(-187px, -250px) rotateY(-140deg);
@@ -1111,7 +1109,7 @@ span{
     position: absolute;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, rgb(32 78 237), rgb(91 131 255) 63%);
+    background: linear-gradient(to right, rgba(213, 32, 237, 0.555), rgba(255, 91, 255, 0.459) 63%);
     color: white;
     display: flex;
     justify-content: center;
@@ -1143,7 +1141,7 @@ span{
     height: calc(100%);
 }
 .boxMail .boxMail-container .card1 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Gabarito', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
     width: 80%;
@@ -1168,7 +1166,7 @@ span{
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #4275ff;
+    background-color: #ff42f6;
     transition: all 1s;
     overflow: hidden;
     font-family: "Inter", serif;
@@ -1179,7 +1177,7 @@ span{
     box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.4);
 }
 .boxMail .boxMail-container .card2 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'CODE' sans-serif;
     padding: 20px 0px 10px 60px;
     opacity: 0;
     visibility: hidden;
@@ -1204,7 +1202,7 @@ span{
     }
 }
 .boxMail .boxMail-container .card2 h2{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Gabarito', sans-serif;
     padding: 0px 20px;
     text-indent: 20px;
     font-size: 17px;
